@@ -18,6 +18,6 @@ You can find my CV here: [Yufeng's Curriculum Vitae](../assets/Curriculum_Vitae.
 
 
 
-Text Suicide Detection Projecy
+Text Suicide Detection Project
 ======
 This project is based on a [Kaggle dataset](https://www.kaggle.com/datasets/mustofaahmed41/suicide-detection-dataset) that contains either suicide related reddit posts or non-suicide related reddite posts.
