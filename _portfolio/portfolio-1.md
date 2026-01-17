@@ -136,8 +136,11 @@ trainer.train()
 # 分析结果
 ## 模型性能指标
 ROC-AUC: 0.9996 (95% CI: 0.9995 - 0.9997)
+
 PR-AUC: 0.9994 (95% CI: 0.9992 - 0.9996)
+
 Brier分数: 0.0061
+
 最佳F1阈值: 0.632
 ## 混淆矩阵
 ![Confusion](/images/confusion.png)
