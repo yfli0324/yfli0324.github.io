@@ -6,7 +6,7 @@ permalink: /portfolio/suicide-detection-transformer
 date: 2024-01-17
 excerpt: "使用DistilRoBERTa模型和SimHash近似重复检测技术，对文本数据进行自杀倾向检测，实现了高准确率和鲁棒性的模型构建。"
 header:
-  teaser: /images/portfolio/suicide-detection-transformer/roc_curve.png
+  teaser: /images/ROC.png
 tags:
 - 自然语言处理
 - 文本分类
@@ -142,11 +142,17 @@ trainer.train()
 | Brier分数 | 0.0061                           |
 | 最佳F1阈值 | 0.632                            |
 ## 混淆矩阵
+![Confusion](images/confusion.png)
 ## ROC曲线
+![ROC](images/ROC.png)
 ## PR曲线
+![PR](images/PR.png)
 ## 分数分布直方图
+![Dist](images/Score_dist.png)
 ## 精确率 / 召回率 / F1 值与阈值关系图
+![Threshold](images/threshold.png)
 ## 校准曲线
+![Calibration](images/calibration.png)
 # 结论
 本项目成功实现了一个高精度的自杀倾向检测系统。通过使用 DistilRoBERTa 模型和 SimHash 近似重复检测技术，我们获得了优秀的模型性能。模型在测试集上的 ROC-AUC 为 0.9996，PR-AUC 为 0.9994，表明模型具有出色的分类能力。
 我们还通过阈值选择优化了模型的性能，最终选择了在验证集上获得最佳 F1 值的阈值 0.712。在这个阈值下，模型在测试集上的精确率为 0.9943，召回率为 0.9950，F1 值为 0.9946，达到了非常高的水平。
